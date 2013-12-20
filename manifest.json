@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "Get Off Hacker News",
+  "description": "Give yourself a break from the computer world.",
+  "version": "0.1",
+
+  "content_scripts": [
+    {
+      "matches": ["https://news.ycombinator.com/"],
+      "js":["block.js"]
+    }
+  ]
+}

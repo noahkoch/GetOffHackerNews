@@ -1,0 +1,1 @@
+window.location="http://en.wikipedia.org/wiki/special:random"
